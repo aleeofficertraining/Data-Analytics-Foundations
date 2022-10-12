@@ -116,3 +116,16 @@ The other group options work which are:
 SELECT * FROM products where price between 10 and 30;
 SELECT count(*) from products where 10 <= price and price <= 30;
 
+
+
+Steps for DBeaver to start
+1.Open DBeaver 
+2.Goto SQL Editor New SQL script
+Make sure postgres is chosen.  There will be a prompt if not chosen.
+Shortcut (or press Ctrl +Alt+space to get scripts).
+
+
+
+Steps to Save the script.
+1.SQL Editor Export SQL Script
+2.Save as add name to file on your laptap
