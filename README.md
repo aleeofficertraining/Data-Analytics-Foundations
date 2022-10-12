@@ -128,4 +128,4 @@ Shortcut (or press Ctrl +Alt+space to get scripts).
 
 Steps to Save the script.
 1.SQL Editor Export SQL Script
-2.Save as add name to file on your laptap
+2.Save as add name to file on your laptop
