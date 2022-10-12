@@ -76,3 +76,43 @@ INSERT INTO PRODUCTS VALUES (123, 'A fresh hot pizza',19.99,'Oct 28 2020  1:44PM
 
 Select * from products;
 press control enter
+
+
+
+-- 1. [Distinct values in column]: SELECT DISTINCT price FROM products;
+
+SELECT DISTINCT price FROM products;
+
+-- 2. [Filter using set of values]: SELECT * FROM products WHERE price IN (5.99, 9.99);
+SELECT * FROM products WHERE price IN (5.99, 9.99);
+-- 3. [Filter with wildcard]: SELECT * FROM products WHERE title LIKE '%Book%';
+SELECT * FROM products WHERE title LIKE '%Book%';
+-- 4. [Less-than filter and order by]: SELECT * FROM products WHERE price < 10 ORDER BY price DESC;
+SELECT * FROM products WHERE price < 10 ORDER BY price DESC;
+Export SQL script
+Save as
+
+Script and a query.
+
+-- 1. Find how many distinct sets of tags there are in the products table.
+SELECT COUNT(DISTINCT tags) FROM products;
+14
+-- 2. How many products cost between $10 and 30?
+
+SELECT count(price IN (10.00, 30.00)) FROM products;
+SELECT COUNT(WHERE cost >= 10 AND <= 30) FROM products;
+30
+
+SELECT * FROM products where price between 10 and 30;
+SELECT count(*) from products where 10 <= price and price <= 30;
+11
+
+ select COUNT (price in (10, 30)) from products; <--this will unfortunately not provide the right answer 11.
+The reason is that  COUNT will only count discrete numbers.
+Price in (10,30) is not discrete because it is asking in between 2 quantities, and COUNT won't recognize it.
+
+
+The other group options work which are:
+SELECT * FROM products where price between 10 and 30;
+SELECT count(*) from products where 10 <= price and price <= 30;
+
