@@ -1,0 +1,16 @@
+For DBeaver Updates 
+
+Choose Components screen:
+Select components to install -Checkmark only 2.  DBeaver Community and Include Java.  (leave the other 2 blank - Reset settings and Associate .SQL files)
+
+Next
+
+Choose Install Location:
+C:\Users\User\AppData\Local\DBeaver
+
+Next
+
+Select Start Menu folder for shortcuts
+DBeaver Community
+
+Install
