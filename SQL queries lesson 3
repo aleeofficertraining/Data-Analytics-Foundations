@@ -2,4 +2,11 @@
 -- 2. [Filter price between 5.99 and 9.99 using set of values]: SELECT * FROM products WHERE price IN (5.99, 9.99);  
 -- 3. [Filter for specific word in a book title with wildcard ]: SELECT * FROM products WHERE title LIKE '%Book%';  
 -- 4. [Less-than filter for a price less than 10 dollars and order by which means to order the prices in descending order]: SELECT * FROM products WHERE price < 10 ORDER BY price DESC;
---my own spinoff:  5. [Filter price between 5.99 and 9.99 in descending order]: Select * from products where price IN (5.99, 9.99) order by price DESC;
+--my own spinoff:  [Filter price between 5.99 and 9.99 in descending order]: Select * from products where price IN (5.99, 9.99) order by price DESC;
+--extra exercises
+-- 1. [Find how many distinct sets of tags there are in the products table  which means a count of them how many]: select distinct tags from products;  
+-- [or another solution is]: select count (distinct tags) from products;
+--answer is 14.
+--[2. How many products cost between $10 and 30?]: SELECT * FROM products where price between 10 and 30;
+--[or another solution is]: SELECT count(*) from products where 10 <= price and price <= 30;
+--you can't use count except on a discrete item, not a range like between 10 and 30 which is not discrete;
