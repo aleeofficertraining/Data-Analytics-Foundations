@@ -2,3 +2,4 @@
 -- 1. [Grouping by one column: select state, count(id) from purchases group by state]: I would do Select * from purchases; to get a sense of the data first. 
 --select distinct state from purchases p;
 --select state, count (user_id) from purchases group by state;
+-- 2. [Grouping by multiple columns: select state, zipcode, count(id) from purchases group by state, zipcode]: 
