@@ -10,3 +10,4 @@
 --1. [Find the most recent purchase made within each state.]:
 --select state, MAX (created_at) from purchases group by state;
 --2. Use the purchase_items table to find the total number of each product_id sold.
+--This is what I used and gets the correct answer: Select product_id, sum(quantity) from purchase_items group by product_id order by product_id;
