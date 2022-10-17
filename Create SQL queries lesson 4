@@ -5,3 +5,6 @@
 -- 2. [Grouping by multiple columns: select state, zipcode, count(id) from purchases group by state, zipcode]: 
 --select state, zipcode, count (user_id) from purchases group by state, zipcode;
 --[My spinoff is that I would also order by state]: select state, zipcode, count(user_id) from purchases group by state, zipcode order by state;
+-- EXERCISES: Answer using the techniques from above. --
+--
+--1. [Find the most recent purchase made within each state.]:
