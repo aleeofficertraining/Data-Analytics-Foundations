@@ -1,0 +1,6 @@
+-------------------------------------------------------------------
+-- WARM UPS: Type the following commands to build muscle memory. --
+-------------------------------------------------------------------
+
+-- 1. [Grouping by one column]: select state, count(id) from purchases group by state;
+-- 
