@@ -10,3 +10,4 @@
 --[2. How many products cost between $10 and 30?]: SELECT * FROM products where price between 10 and 30;
 --[or another solution is]: SELECT count(*) from products where 10 <= price and price <= 30;
 --you can't use count except on a discrete item, not a range like between 10 and 30 which is not discrete;
+--[my own spinoff: descending order]:  SELECT * FROM products where price between 10 and 30 order by price desc;
