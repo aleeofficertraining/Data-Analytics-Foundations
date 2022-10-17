@@ -8,3 +8,5 @@
 -- EXERCISES: Answer using the techniques from above. --
 --
 --1. [Find the most recent purchase made within each state.]:
+--select state, MAX (created_at) from purchases group by state;
+--2. Use the purchase_items table to find the total number of each product_id sold.
