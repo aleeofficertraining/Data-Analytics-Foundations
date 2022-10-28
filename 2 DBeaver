@@ -1,4 +1,4 @@
-For DBeaver Updates 
+For DBeaver Updates in SQL
 
 Choose Components screen:
 Select components to install -Checkmark only 2.  DBeaver Community and Include Java.  (leave the other 2 blank - Reset settings and Associate .SQL files)
@@ -15,5 +15,6 @@ DBeaver Community
 
 Install
 
+--we use postgres within DBeaver
 --use semicolon at the end of a statement then press control plus enter to execute the query
 --; Press Ctrl Enter
