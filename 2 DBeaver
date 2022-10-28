@@ -14,3 +14,6 @@ Select Start Menu folder for shortcuts
 DBeaver Community
 
 Install
+
+--use semicolon at the end of a statement then press control plus enter to execute the query
+--; Press Ctrl Enter
