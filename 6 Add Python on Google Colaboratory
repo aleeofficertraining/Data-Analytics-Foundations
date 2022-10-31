@@ -81,3 +81,4 @@
 --Type(var)  Type(var2)  Type(var3)  - int is integer, Float is decimal, str is string
 --String is a sequence of characters
 
+-- var is not capitalized
