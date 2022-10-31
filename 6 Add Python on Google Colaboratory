@@ -16,7 +16,8 @@
 --How do I turn code cell into regular text?
 
 --Large header text: Type #Python basics cell into a text cell.
--- Press Ctrl+m m   (m twice) which turns the code cell into a large header text cell.
+-- Ctrl+m m    (m twice) which turns the code cell into a large header text cell.
+--It automatically subdivides the notebook into sections.
 
 --Icons on right each cell:  After you type something, there are icons on the right side, to Add comment, edit the cell, link to cell, 
 --                           delete cell.  Press control Z to undo.
@@ -24,5 +25,57 @@
 --print('Hello world')  single quote.  Then Press Shift + Enter which runs the cell.
 --  In Google Colab, we use parentheses ( ) and single quote.  In Chapter 1 book using Windows, the book shows no ( ), uses double quotes.
 
---
+--  Shift+Enter to run the cell.
 
+-- Data type is called String -- what is in parenthesis.
+-- print('Your Name: Angela Lee')
+-- print('Why Are you here: To learn python ')
+-- print('Why do you want to learn Python: To code in healthcare')
+
+--  ======================== =========================
+--Python is a dynamic language.  
+-- #1. Print things.
+-- #2. Do Math.   
+--It can bring strings in via print.  It can also calculate. 
+--Mathematical operations.  Press Shift + Enter to run the cell.
+--12 * 4  Press Shift+Enter and get 48.
+--23 -5   Press Shift+Enter and get  18
+--PAMDAS Parentheses Exponents Multiplication Division Addition Subtraction.
+--% is modulus used for division
+
+-- ==================== =====================
+-- Table of Contents 
+-- On the far left side is a column.  The first item is Table of Contents.  Variables is a new section in TOCs.
+-- You can minimize your sections with the little arrow next to each section word like Variables.
+
+-- #Variables  Press Ctrl+ m m 
+--(this is Chapter 4 in the book).
+--A variable is a container to hold stuff in.  Think of it literally as a bucket. 
+--Python is dynamic meaning you do not have to declare a variable before you use it.  What does that mean?   You can create a bucket with a name called oranges.
+--You need to give it an “assignment” which one is the equal sign.
+--The word oranges is holding oranges.  To describe it you use a data type which we already use called a string.  By string, I mean in quotes oranges. 
+--This container is holding a string which says this is a bunch of oranges.
+--oranges = 'this is a bunch of oranges'
+
+--To print, I don’t have to say the whole string anymore because it is in the container. So I simply say oranges. 
+--print(oranges)  Press Shift+Enter and get the next line:
+--this is a bunch of oranges
+
+--Variables – the name implies that it can be changed. 
+--You can change the container to be whatever you want.  
+
+--For the variable you create,
+--name it as whatever is inside the variable, or related to the variable.
+--This string is a string and means absolutely nothing. 
+
+--What does that mean?
+--I call the oranges = ‘apples’ Does that make sense?  Have you ever ordered a package of oranges that has apples inside. That would be annoying and confusing.  
+--A string means absolutely nothing because it’s a string.
+--This time I call the variable var.  you can name it whatever you want.
+--var = 3   make var equal to 3.   I will make a bunch of them.
+--var2 = 5  change it to var2 = 5.7
+--var3 = ‘this is another  variable’
+
+--If I say var2.
+--It can hold different types of variables.   How do we know what kind of types of a variable there are?  In Python, you can ask what type of variable it is.   Type is a built in function you do not have to install, and use it.  Since this is a method, you can say what type of variable is var.
+--Type(var)  Type(var2)  Type(var3)  - int is integer, Float is decimal, str is string
