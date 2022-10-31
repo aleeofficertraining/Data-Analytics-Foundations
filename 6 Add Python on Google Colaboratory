@@ -86,4 +86,43 @@
 
 -- ==================================================================
 
--- Numbers
+-- # Numbers  Ctrl + m + m
+-- a = 14   Press return
+-- b = 4    Press return
+--print(a + b) Press Shift + Enter  there is also print(a * b) and also print(a - b)
+--print(a / b)  equals 3.5 and also print(a // b) equals 3
+--print(a % b) equals 2 which is modulus which is the remainder
+--( 5 + ((20 / 4) * 2) - 7)  equals 8
+--# Division and Multiplication has highest priority in python
+--# These operators work from left to right
+
+-- =================================================================
+-- variable, type of variable, data types (string, integer, float which is a decimal)
+-- how to print stuff
+-- how to calculate 
+
+
+-- #Practical Python  Ctrl + m + m
+-- length = 12
+-- width = 23
+-- area_of_a_rectangle = length * width
+-- print (area_of_a_rectangle)  which then gives answer 276
+
+-- Print formatting = is to print your stuff and format your text 
+--      Makes our printing look pretty.  There are several ways to do this.
+-- print ('The area of a rectangle is', area_of_a_rectangle, 'meters squared'
+--  leads to the result of The area of a rectangle is 276 meters squared
+
+==Concatenation = pushing or printing different data types into one statement.
+==In above example, it is:
+==string number string
+
+--When using plus sign +, You can only concatenate string to string.  And number to number.  No commas needed.
+--print ('The area of a rectangle is '+ str(area_of_a_rectangle) + ' meters squared')
+-- The area of a rectangle is 276 meters squared
+
+
+
+
+
+-- 
