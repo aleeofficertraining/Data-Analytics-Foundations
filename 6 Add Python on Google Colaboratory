@@ -1,0 +1,28 @@
+--Google Drive +New Google Colaboratory
+--       If Colaboratory is not there, go to Connect More Apps. Look for Colabs and Install it.  
+--      Make it the default for files you can open.
+--      Now, when you go to New, you will see Google Colaboratory.      
+--Change background:  Change the background which is white.  Go to Tools, Settings, Theme --> change to dark.
+--Show line numbers:  Go to Tools, Settings, Editor, Show line numbers. 
+--// #  hashtag or hashtag is to do commenting code
+--Run a python notebook:  Use arrow - something using a play button to connect and initialize. 
+--Use code:   Google Colab left shows:  +Code  +Text.   We will use Code all the time.
+
+--Naming file:   At the top left of the screen, the file is named Untitled.ipynb.  You can click and rename to Python Basics. 
+--               Press enter and the name is saved.
+
+
+--Lesson 1: Create text to stay organized.  
+--How do I turn code cell into regular text?
+
+--Large header text: Type #Python basics cell into a text cell.
+-- Press Ctrl+m m   (m twice) which turns the code cell into a large header text cell.
+
+--Icons on right each cell:  After you type something, there are icons on the right side, to Add comment, edit the cell, link to cell, 
+--                           delete cell.  Press control Z to undo.
+
+--print('Hello world')  single quote.  Then Press Shift + Enter which runs the cell.
+--  In Google Colab, we use parentheses ( ) and single quote.  In Chapter 1 book using Windows, the book shows no ( ), uses double quotes.
+
+--
+
