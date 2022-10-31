@@ -12,6 +12,8 @@
 --               Press enter and the name is saved.
 
 
+--File-->New notebook
+
 --Lesson 1: Create text to stay organized.  
 --How do I turn code cell into regular text?
 
@@ -113,13 +115,18 @@
 -- print ('The area of a rectangle is', area_of_a_rectangle, 'meters squared'
 --  leads to the result of The area of a rectangle is 276 meters squared
 
-==Concatenation = pushing or printing different data types into one statement.
+==Concatenation = pushing or printing different data types together into one statement.
 ==In above example, it is:
 ==string number string
 
 --When using plus sign +, You can only concatenate string to string.  And number to number.  No commas needed.
 --print ('The area of a rectangle is '+ str(area_of_a_rectangle) + ' meters squared')
 -- The area of a rectangle is 276 meters squared
+
+--called what?
+--print(f'The area of a rectangle is {area_of_a_rectangle} meters squared')
+--The area of a rectangle is 276 meters squared
+
 
 
 
