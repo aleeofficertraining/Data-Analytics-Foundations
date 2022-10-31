@@ -79,3 +79,5 @@
 --If I say var2.
 --It can hold different types of variables.   How do we know what kind of types of a variable there are?  In Python, you can ask what type of variable it is.   Type is a built in function you do not have to install, and use it.  Since this is a method, you can say what type of variable is var.
 --Type(var)  Type(var2)  Type(var3)  - int is integer, Float is decimal, str is string
+--String is a sequence of characters
+
