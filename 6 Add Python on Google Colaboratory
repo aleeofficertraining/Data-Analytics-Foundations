@@ -133,8 +133,27 @@
 
 --Collection Data Types - created new file
 --•	Lists
+--•	Concatenation
 --•	Dictionaries
 --•	Tuples
 --•	Sets
 
 --Lists
+
+--my_list = ["Hello", 100, 23.47]
+--# In this line, I have created a list and assigned the values "["Hello", 100, 23.47]"
+--# When creating a list, we must use squared bracket '[]'
+--# we use the assignment operation '=' to assign values to a variable which in this case creates a list.
+
+--Collection Data type = is a data type available that can hold a collection of things.
+--Traits:
+--•	Square brackets [ ] 
+--•	Use assign operator which is = 
+--•	String, integer and a float
+--type(my_list) this results in the answer :
+--list
+
+--second_list = ["one", "two", "three"]
+
+--# Concatenation Ctrl + m m 
+-- Concatenate lists = I can combine or smash together my first list w my 2nd list.
