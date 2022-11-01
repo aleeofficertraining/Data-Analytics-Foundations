@@ -274,3 +274,16 @@
 --The file will save as a Copy of the file and reverts to a folder in my own Drive.
 --"""
 
+--Concatenating more
+--my_list
+--['Hello', 100, 23.47]
+
+--second_list
+--['one', 'two', 'three']
+
+--new_list=my_list + second_list
+
+--new_list
+--['Hello', 100, 23.47, 'one', 'two', 'three']
+
+
