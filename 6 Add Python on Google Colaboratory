@@ -239,3 +239,9 @@
 
 --\nStart with single quote three times \nWrite your text \nEnd with single quote three times\n
 
+--type(my_list)
+--“””
+--The type() method is a built-in function that allows me to understand the type of variable or object I am working with.
+--“””
+--Everything in Python is an object.
+
