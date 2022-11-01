@@ -287,3 +287,83 @@
 --['Hello', 100, 23.47, 'one', 'two', 'three']
 
 
+--#Indexing continued   Ctrl+m+m
+--You can use numbers to “index” into a list, meaning you can use numbers to find out what’s in lists. You should know this about lists by now, but make sure you understand that you can only use numbers to get items out of a list.
+--#A., Shaw Zed. Learn Python the Hard Way (Zed Shaw's Hard Way Series) (p. 132). Pearson Education. Kindle Edition.
+--things = ['a', 'b', 'c', 'd']   #Shift + Enter
+--print things[1]   #Shift + Enter
+--b
+--things[1] = 'z'  #Shift + Enter
+--print things[1]   #Shift + Enter
+--z
+--print things  #Shift + Enter
+--['a', 'z', 'c', 'd']
+--#A., Shaw Zed. Learn Python the Hard Way (Zed Shaw's Hard Way Series) (p. 132).
+
+-- ========================================================================================================================
+--October 25, 2022 class
+--Collection Data Types – created new file
+--•	Lists
+--•	Concatenation
+--•	Indexing
+--•	Dictionaries
+--•	Tuples
+--•	Sets
+
+--#Dictionary Ctrl + m + m
+--my_dict = {“key1” : “value1” , “key2” : “value2”}
+--# In this line, I have created a dictionary and assigned the values “key1” : “value1” , “key2” : “value2”
+--# A dictionary has a key with a value
+--# When creating a dictionary, we must use curly bracket '{}'
+--# we use the assignment operation '=' to assign values to a variable which is this case creates a dictionary.
+
+--You can use numbers to “index” into a list, meaning you can use numbers to find out what’s in lists. You should know this about lists by now, but make sure you understand that you can only use numbers to get items out of a list.
+
+--Dictionaries is in Chapter 39 in the text.
+--What a dict does is let you use anything, not just numbers. Yes, a dict associates one thing to another, no matter what it is.
+--You will see that instead of just numbers we’re using strings to say what we want from the stuff dictionary.
+--stuff = {'name': 'Zed', 'age': 36, 'height': 6*12+2}
+-->>> print stuff['name']
+--Zed
+--A., Shaw Zed. Learn Python the Hard Way (Zed Shaw's Hard Way Series) (p. 132). 
+
+--# In a dictionary, I am defining a variable
+
+--What is contained is a pair of items within a curly bracket.
+
+--If I want to give a particular value to a key, I can call the dictionary again. So, everything begins with the name of the variable.
+--A list is for an ordered list of items. A dictionary (or dict) is for matching some items (called “keys”) to other items (called “values”).
+--A., Shaw Zed. Learn Python the Hard Way (Zed Shaw's Hard Way Series) (pp. 135-136).
+--Dictionaries are used to store data values in key:value pairs. 
+--A dictionary is a collection which is ordered*, changeable and does not allow duplicates. 
+--*As of Python version 3.7, dictionaries are ordered. In Python 3.6 and earlier, dictionaries are unordered.
+--Dictionaries are written with curly brackets, and have keys and values:
+--(Fromhttps://www.w3schools.com/python/python_dictionaries.asp)
+
+-->>> stuff = {'name': 'Zed', 'age': 36, 'height': 6*12+2}
+--  >>> print stuff['name']
+--    Zed
+-->>> print stuff['age']
+--    36
+--    >>> print stuff['height']
+--    74
+--    >>> stuff['city'] = "San Francisco"
+--    >>> print stuff['city']
+--    San Francisco
+--    >>>
+
+--We can also put new things into the dictionary with strings. It doesn’t have to be strings though. We can also do this:
+-->>> stuff[1] = "Wow"
+--    >>> stuff[2] = "Neato"
+--    >>> print stuff[1]
+--    Wow
+--    >>> print stuff[2]
+--    Neato
+--    >>> print stuff
+--    {'city': 'San Francisco', 2: 'Neato',
+--        'name': 'Zed', 1: 'Wow', 'age': 36,
+--        'height': 74}
+--    >>>
+--In this code I used numbers, and then you can see there are numbers and strings as keys in the dict when I print it. I could use anything—well, almost, but just pretend you can use anything for now.
+
+--A., Shaw Zed. Learn Python the Hard Way (Zed Shaw's Hard Way Series) (p. 133). Pearson Education. Kindle Edition.
