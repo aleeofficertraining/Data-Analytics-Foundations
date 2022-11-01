@@ -157,3 +157,36 @@
 
 --# Concatenation Ctrl + m m 
 -- Concatenate lists = I can combine or smash together my first list w my 2nd list.
+
+--Empty list = [ ]
+--How to create an empty list.
+--I created an empty list.  Now that my list is created, I can add to it.
+--But before we do this, 
+--We will cover another concept called Indexing.
+
+--#Indexing
+--Let’s create a list of student names.
+--students = [‘Ana’, ‘Grace’, ‘Angela’, ‘Dave’, ‘Che’]
+--       0	     1	     2	        3          4
+--We can do the technique of indexing, access each and every one of these elements on the list. How do I do that?
+--Type 1st the name of my list which is students, then using square brackets without any operator like the equal sign, allows me to index or to select specific elements of the list.  The elements are separated by a comma as you see.
+--If I put element zero 0, the first name comes up.  Everything begins at zero, for most programming languages.
+
+--students [3]
+--‘Dave’
+
+--Why? Say I want to access within the element 4 which is index 3. name Dave, this is a string. I can also index to a string. Here are more examples:
+--Element 4 which is index 3.
+--I’m going to create a string and call it my_string.   This is like a variable like before.
+--If I want to access within an element within the string, I can access the same thing I do with a list. 
+
+--my_string = ‘This is another string’
+--my_string[4]  It’s taking the space within the string. The space is a character.
+
+--Within a string, just like in a list,
+--Indexing works with 0 to the last whatever n value of string that is.
+--What if I want to access the last element in a list?  I don’t know how many elements I have. In computer science, the last element of a list, or in an array, or string, is always n minus 1.  So, to access the last element, access -1.
+--===================================
+--Next element is called Slicing. 
+
+--#Slicing  Ctrl + m + m
