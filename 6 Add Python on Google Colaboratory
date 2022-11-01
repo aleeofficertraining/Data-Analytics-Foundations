@@ -190,3 +190,44 @@
 --Next element is called Slicing. 
 
 --#Slicing  Ctrl + m + m
+--I have my students list and am going to print it out again here:
+--students
+--['Ana', 'Grace', 'Angela', 'Dave', 'Cheryse']
+
+--[Angela: IT know how how do I make my print screen button print the 2nd screen monitor]
+--What if I want only these 3 names?  In order to slice, 
+--students[1:3]
+--['Grace', 'Angela']
+
+--students[1:4]
+--['Grace', 'Angela', 'Dave']
+
+--students[:4] implies includes the zero 0.
+--students[:4]
+--['Ana', 'Grace', 'Angela', 'Dave']
+
+--I added this exercise below:
+--students[:5]
+--['Ana', 'Grace', 'Angela', 'Dave', 'Cheryse']
+
+--#create comments for the code we went through. Be as descriptive and detailed as possible
+--my_list = ["Hello", 100, 23.47]
+--# In this line, I have created a list and assigned the values "["Hello", 100, 23.47]"
+--# When creating a list, we must use squared bracket '[]'
+--#we use the assignment operation '=' to assign values to a variable which is the case creates a list
+
+
+--#create comments for the code we went through. Be as descriptive and detailed as possible
+
+--#single line code with comments, press return after each line
+--#below is multi-line comments, press return after each line
+
+--The above is for single line comments.
+--For multi-line comments, use the following and be consistent:
+--my_list
+--'''
+
+--''' 
+
+
+--‘\n\n\n’
