@@ -373,3 +373,13 @@
 --In this code I used numbers, and then you can see there are numbers and strings as keys in the dict when I print it. I could use anything—well, almost, but just pretend you can use anything for now.
 
 --A., Shaw Zed. Learn Python the Hard Way (Zed Shaw's Hard Way Series) (p. 133). Pearson Education. Kindle Edition.
+
+
+--fruits = {"Apple":3, "Banana":1.75, "Cherry":2} # Shift + Enter
+--                                                # Genghis: Dictionaries can have all kinds of data.
+
+--#To access data points or values from inside my dictionary, I use the [ ] square brackets and access through the key of this dictionary.
+--# If I put in Apple, I will get the value that is associated with that key, which value is 3.
+--fruits['Apple']  Shift + Enter
+--3
+
