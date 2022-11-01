@@ -123,7 +123,7 @@
 --print ('The area of a rectangle is '+ str(area_of_a_rectangle) + ' meters squared')
 -- The area of a rectangle is 276 meters squared
 
---called what?
+--called what?  F-string formatting
 --print(f'The area of a rectangle is {area_of_a_rectangle} meters squared')
 --The area of a rectangle is 276 meters squared
 
@@ -231,3 +231,9 @@
 
 
 --‘\n\n\n’
+--'''
+--Start with single quote three times 
+--Write your text 
+--End with single quote three times
+--'''
+
